@@ -5,10 +5,10 @@ import java.util.Set;
 public class Ut5_4 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        Set<String> productos=new HashSet<>();
         String producto = null;
         int casos;
         do {
+            Set<String> productos=new HashSet<>();
             System.out.println("Pedidos:");
             casos= sc.nextInt();
             if (casos>150000){
